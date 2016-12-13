@@ -1,12 +1,203 @@
 <!DOCTYPE html>
-
+<html>
 <head>
-  <title>Code Cubes</title>
-</head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+    <title>Code Cubes</title>
 
-<body style="text-align:center">
-<h1>Code Cubes</h1>
-<div>
-  <p>interactive virtual reality coding for kids</p>
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+    <style>
+      #index-banner {
+        background-image: url('./img/codecubezzz.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+
+      .hero-header {
+        text-shadow: 0 0 24px rgba(0, 0, 0, 0.95);
+        font-weight: bold;
+        color: #fff;
+        padding: 15% 0 0 0;
+      }
+
+      .hero-desc {
+        text-shadow: 0 0 24px rgba(0, 0, 0, 0.95);
+        color: #fff;
+        font-size: 32px;
+      }
+
+      .text_b {
+        text-align: center;
+      }
+    </style>
+</head>
+<body id="top" class="scrollspy">
+
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
 </div>
-</body>
+
+<!--Navigation-->
+
+<!--Hero-->
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h1 class="center header cd-headline type hero-header">
+          Code Cubes
+        </h1>
+   	<h2 class="center header cd-headline type hero-desc">
+	interactive virtual reality coding for kids
+	</h2>
+    </div>
+</div>
+
+<!--Intro and service-->
+<div id="intro" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <div  class="col s12">
+                <h2 class="center header text_h2">MIT Scratch-inspired visual programming. In VR. Built with Unity and C#. </h2>
+            </div>
+
+            <div  class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <i class="mdi-editor-mode-edit"></i>
+                    <h5 class="promo-caption">Inspired by Scratch</h5>
+                    <p class="light center">MIT Scratch, one of the most popular visual programming languages used to teach computer science to children, was what we based our project's infrastructure around..</p>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <i class="mdi-action-view-carousel"></i>
+                    <h5 class="promo-caption">3-Dimensional</h5>
+                    <p class="light center">While Scratch is 2-dimensional, we were able to take the concept and add a third dimension to it by using virtual reality.</p>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <i class="mdi-action-settings-applications"></i>
+                    <h5 class="promo-caption">Modern Technology</h5>
+                    <p class="light center">We used Unity to set up the VR environment and wrote scripts in C# to build the backend of the application. Our current platform is the HTC Vive, so the user interacts with the environment using the hand controllers, which we take input from and use to manipulate the cubes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Team-->
+<div class="section scrollspy" id="team">
+    <div class="container">
+        <h2 class="header text_b"> Our Team </h2>
+        <div class="row">
+            <div class="col s6">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/avatar1.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Yasmeen <br/>
+                            <small><em><a class="red-text text-darken-1" href="#">CEO</a></em></small></span>
+                        <p>
+                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/halfspaced">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://twitter.com/astroyaz">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/yroumie">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/avatar2.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Akshaya<br/>
+                            <small><em><a class="red-text text-darken-1" href="#">Designer</a></em></small>
+                        </span>
+                        <p>
+                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/akshayadinesh19">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://twitter.com/akshayadinesh19">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/avatar3.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            Capt. America <br/>
+                            <small><em><a class="red-text text-darken-1" href="#">CMO</a></em></small></span>
+                        <p>
+                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                                <i class="fa fa-google-plus-square"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/avatar4.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Robin<br/>
+                            <small><em><a class="red-text text-darken-1" href="#">Developer</a></em></small></span>
+                        <p>
+                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                                <i class="fa fa-google-plus-square"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+  <!--  Scripts-->
+  <script src="min/plugin-min.js"></script>
+
+  </body>
+</html>
